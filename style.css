@@ -101,9 +101,7 @@ body {
 }
 
 .img-wrapper img {
-  /* height: 370px; */
   height: 300px;
-  /* width: 570px; */
   width: 100%;
   border-radius: 5px;
 }
@@ -132,7 +130,7 @@ body {
 
 .book-free {
   font-size: 16px;
-  width: 50%;
+  width: 45%;
   border: none;
   background: #ff3a58;
   color: #fff;
@@ -144,7 +142,7 @@ body {
 
 .share-btn {
   font-size: 16px;
-  width: 20%;
+  width: 15%;
   border: none;
   color: #ff3a58;
   background: #fff;
@@ -153,7 +151,7 @@ body {
   font-family: "Grandstander", Regular !important;
   font-weight: 700;
   border: 1px solid;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .subtitle-badge {
@@ -335,6 +333,14 @@ body {
   margin-bottom: 10px !important;
 }
 
+.testimonial {
+  padding: 3rem 0px;
+}
+
+.mcq-answer {
+  padding: 0px !important;
+}
+
 .copyright-footer {
   background: #5a5555;
   padding: 20px;
@@ -353,4 +359,99 @@ body {
 .d-help {
   display: flex;
   align-items: center;
+}
+
+/* mobile responsive screen */
+@media (min-width: 320px) and (max-width: 480px) {
+  .menus {
+    display: none;
+  }
+  .container-section {
+    padding: 0px;
+  }
+  .real-pagination {
+    display: none;
+  }
+  .real-title {
+    margin: 0px;
+  }
+  .main-title {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .like-button {
+    display: none;
+  }
+  .sub-title {
+    font-size: 14px;
+    margin: 10px;
+  }
+  .img-wrapper img {
+    height: 200px;
+    border-radius: 0px;
+  }
+  .right-content {
+    padding: 0px;
+    padding-top: 10px;
+  }
+  .rupee-btn {
+    width: 60%;
+  }
+  .margin-left-5 {
+    margin-left: 10px;
+  }
+  .submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .book-free {
+    width: 70%;
+  }
+  .question-section {
+    padding: 10px;
+  }
+  .goals-sm {
+    font-size: 16px;
+  }
+  .text-sm-14 {
+    font-size: 14px;
+  }
+  .subtitle-badge-green {
+    display: none;
+  }
+  .content-card {
+    margin-bottom: 1rem;
+  }
+  .main-card {
+    margin-bottom: 1rem;
+  }
+
+  .testimonial {
+    padding-bottom: 10px !important;
+  }
+
+  .inner-img {
+    display: none;
+  }
+  .highlighted {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: -25px;
+    height: 300px;
+  }
+  .highlighted img {
+    height: 100%;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .footer-btn {
+    width: 90%;
+  }
+
+  .d-footer-none {
+    display: none;
+  }
 }
